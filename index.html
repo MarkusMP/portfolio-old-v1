@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <script
+      src="https://kit.fontawesome.com/fa801f8982.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Markus Persson</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="#home">
+            <span class="logo"> Markus </span>
+          </a>
+        </div>
+        <ul class="links">
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="#skills">Skills</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container" id="home">
+      <div class="bg">
+        <div class="showcase">
+          <h1>I'm Markus</h1>
+          <h4 class="typing"></h4>
+          <div class="social">
+            <ul>
+              <li>
+                <a href="https://github.com/markusmp" target="_blank">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="about" id="about">
+      <div class="text">
+        <h1>About Me</h1>
+        <div class="line"></div>
+      </div>
+      <div class="about-me">
+        <h1>FULL STACK DEVELOPER</h1>
+        <p>
+          I'm a software developer who loves taking on new challenges and
+          learning new things. I enjoy working efficiently towards set goals and
+          to see solutions rather than problems. My skills include a wide range
+          of front-end development and back-end development. I'm creative, a
+          fast learner, and proficient in both Swedish and English.
+        </p>
+        <div class="buttons">
+          <a href="#skills" class="skills-btn">Skills</a>
+          <a href="./cv.pdf" class="cv-btn" download>Download CV</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="text">
+        <h1>Projects</h1>
+        <div class="line"></div>
+      </div>
+      <div class="project">
+        <div class="project-image">
+          <img
+            src="./images/project-image-1.png"
+            alt="Image of todo app"
+            onclick="onClick(this)"
+            class="modal-hover-opacity"
+          />
+        </div>
+        <div class="project-info">
+          <h2>Trello Clone with authentication</h2>
+          <div class="project-links">
+            <ul>
+              <li>
+                <a
+                  href="https://nervous-neumann-420450.netlify.app/"
+                  target="_blank"
+                  >View App</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/markusmp/Content-Managment-App"
+                  target="_blank"
+                >
+                  View Code
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="items">
+            <p>This app was built with:</p>
+            <ul>
+              <li>Node</li>
+              <li>Express</li>
+              <li>Typescript</li>
+              <li>React</li>
+              <li>Redux</li>
+              <li>MongoDB</li>
+              <li>Tailwind</li>
+              <li>Mongoose</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="project">
+        <div class="project-image">
+          <img
+            src="./images/project-image-2.png"
+            alt="Image of todo app"
+            onclick="onClick(this)"
+            class="modal-hover-opacity"
+          />
+        </div>
+        <div class="project-info">
+          <h2>Fully functional ecommerce site using the MERN Stack</h2>
+          <div class="project-links">
+            <ul>
+              <li>
+                <a
+                  href="https://proshopapplication1.herokuapp.com/"
+                  target="_blank"
+                  >View App</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/markusmp/Ecommerce-MERN-Stack"
+                  target="_blank"
+                >
+                  View Code
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="items">
+            <p>This app was built with:</p>
+
+            <ul>
+              <li>Node</li>
+              <li>Mongoose</li>
+              <li>Express</li>
+              <li>React</li>
+              <li>Redux</li>
+              <li>MongoDB</li>
+              <li>Bootstrap</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="project">
+        <div class="project-image">
+          <img
+            src="./images/project-image-5.jpg"
+            alt="Image of todo app"
+            onclick="onClick(this)"
+            class="modal-hover-opacity"
+          />
+        </div>
+        <div class="project-info">
+          <h2>Social Media Clone (Mediafly) built with the MERN Stack</h2>
+          <div class="project-links">
+            <ul>
+              <li>
+                <a
+                  href="https://social-media-mern-stacks.herokuapp.com/"
+                  target="_blank"
+                  >View App</a
+                >
+              </li>
+              <li>
+                <a href="https://github.com/markusmp/mediafly" target="_blank">
+                  View Code
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="items">
+            <p>This app was built with:</p>
+
+            <ul>
+              <li>Node</li>
+              <li>Mongoose</li>
+              <li>Express</li>
+              <li>React</li>
+              <li>Redux</li>
+              <li>MongoDB</li>
+              <li>Bootstrap</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="project">
+        <div class="project-image">
+          <img
+            src="./images/project-image-4.png"
+            alt="Image of todo app"
+            onclick="onClick(this)"
+            class="modal-hover-opacity"
+          />
+        </div>
+        <div class="project-info">
+          <h2>Github profile search using the github API.</h2>
+          <div class="project-links">
+            <ul>
+              <li>
+                <a
+                  href="https://wizardly-bartik-6480f0.netlify.app/"
+                  target="_blank"
+                  >View App</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/markusmp/GitHub-Profile-search"
+                  target="_blank"
+                >
+                  View Code
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="items">
+            <p>This app was built with:</p>
+
+            <ul>
+              <li>React</li>
+              <li>Bootstrap</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="project">
+        <div class="project-image">
+          <img
+            src="./images/project-image-6.jpg"
+            alt="Image of todo app"
+            onclick="onClick(this)"
+            class="modal-hover-opacity"
+          />
+        </div>
+        <div class="project-info">
+          <h2>Barbershop</h2>
+          <div class="project-links">
+            <ul>
+              <li>
+                <a href="https://eager-jang-356ed5.netlify.app/" target="_blank"
+                  >View App</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/markusmp/Barber-Shop"
+                  target="_blank"
+                >
+                  View Code
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="items">
+            <p>This app was built with:</p>
+
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+              <li>Sass</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <div class="text">
+        <h1>Skills</h1>
+        <div class="line"></div>
+      </div>
+      <div class="items">
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JAVASCRIPT</li>
+          <li>TYPESCRIPT</li>
+          <li>REACT</li>
+          <li>BOOTSTRAP</li>
+          <li>GITHUB</li>
+          <li>GIT</li>
+          <li>NODE</li>
+          <li>EXPRESS</li>
+          <li>MONGODB</li>
+          <li>TAILWIND</li>
+          <li>POSTGRES</li>
+          <li>DOCKER</li>
+          <li>SQL</li>
+          <li>NOSQL</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="text">
+        <h1>Contact</h1>
+        <div class="line"></div>
+      </div>
+      <form method="POST" action="https://formspree.io/f/mwkwonqb">
+        <div class="top">
+          <input
+            type="text"
+            placeholder="Name"
+            name="name"
+            id="name"
+            required
+          />
+          <input
+            type="email"
+            placeholder="Email"
+            name="_replyto"
+            id="email"
+            required
+          />
+        </div>
+        <div class="bottom">
+          <textarea
+            placeholder="Comment..."
+            id="comment"
+            name="message"
+            cols="20"
+            rows="10"
+            required
+          ></textarea>
+          <button type="submit" class="send">Send</button>
+        </div>
+      </form>
+    </section>
+
+    <footer>
+      <p>Copyright &copy; 2021 Markus Persson</p>
+    </footer>
+
+    <div id="modal01" class="modal" onclick="this.style.display='none'">
+      <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+      <div class="modal-content">
+        <img id="img01" style="width: 75vw; height: 100%" />
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
